@@ -1,7 +1,3 @@
-# bashful
-env setup
-
-
 # Bash Prompt
 # =================
 
@@ -209,11 +205,6 @@ export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
   if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
   fi
-
-  # RVM
-  # Mandatory loading of RVM into the shell
-  # This must be the last line of your bash_profile always
-  [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 source ~/.profile
 
